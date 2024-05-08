@@ -1,3 +1,4 @@
+<!--
 # 5G-UE-SecurityTesting
 
 ## Description
@@ -116,7 +117,7 @@ The program will create a folder (e.g., nas_results). All logs and pcaps will be
 ## License
 
 The **5G-UE-SecurityTesting** project is open-source.
-
+-->
 ## Reference
 
 If you are using or referencing this project, please cite the following paper:
