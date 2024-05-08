@@ -33,6 +33,11 @@ prerequisite:  apt install python3-pip python3-setuptools python3-wheel ninja-bu
 3. ninja -C build
 4. cd build
 5. ninja install
+
+```bash
+meson build --prefix=$(pwd)/install
+```
+
    
 More details on open5gs installation can be found at: https://open5gs.org/open5gs/docs/guide/02-building-open5gs-from-sources
 
