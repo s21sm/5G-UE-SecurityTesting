@@ -81,12 +81,14 @@ For the NAS test:
 1. Run open5gs as follows: `sudo ./open5gs/build/tests/app/5gc -n /home/usr/Desktop/5G/Test_nas/test1.json`
 2. Then run srsRAN: `sudo ./srsRAN/build/srsenb/src/srsenb configFiles/enb.conf`
 
+<!--
 For the RRC test:
 1. Run open5gs as follows: `sudo ./open5gs/build/tests/app/5gc -n /home/usr/Desktop/5G/Test_nas/test1.json`
 2. Then run srsRAN: `sudo ./srsRAN/build/srsenb/src/srsenb configFiles/enb.conf`
 3. Finally, at the eNB side, `test /home/usr/Desktop/5G/Test_rrc/testcases1.json` (On the terminal, after a complete gNB initialization)
 
 If these steps run properly, then the system is ready for the automation process using `handler.py`. Please note that in order to run the RRC test, it is necessary to run a NAS test as well. In this case, the NAS test1.json is executed concurrently with the RRC test, but NAS test1.json can be a dummy testcase.
+-->
 
 For the automation process, connect the Android device to the PC using a USB connection and ensure that the phone is recognized as a connected device. This [tutorial](https://www.youtube.com/watch?v=GERlhgCcoBc) might be helpful. 
 
