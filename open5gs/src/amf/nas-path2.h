@@ -62,6 +62,7 @@ ogs_pkbuf_t *user_nas_5gs_security_encode(amf_ue_t *amf_ue, ogs_nas_5gs_message_
 uint8_t stringToInt8(char* parameter);
 uint16_t stringToInt16(char* parameter);
 void stringToInt8pointer(uint8_t* data, char* parameter);
+void hexStringToUint8Array(uint8_t *dest, const char *source);
 
 #ifdef __cplusplus
 }
