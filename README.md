@@ -29,7 +29,7 @@ More details on srsRAN installation can be found at: https://docs.srsran.com/pro
 ### open5GS
 prerequisite:  apt install python3-pip python3-setuptools python3-wheel ninja-build build-essential flex bison git cmake libsctp-dev libgnutls28-dev libgcrypt-dev libssl-dev libidn11-dev libmongoc-dev libbson-dev libyaml-dev libnghttp2-dev libmicrohttpd-dev libcurl4-gnutls-dev libnghttp2-dev libtins-dev libtalloc-dev meson libjson0 libjson0-dev
 1. cd open5gs
-2. meson build --prefix= `` ` ``pwd/install
+2. meson build --prefix= `` ` ``pwd`` ` ``/install
 3. ninja -C build
 4. cd build
 5. ninja install
