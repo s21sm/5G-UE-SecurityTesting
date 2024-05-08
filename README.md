@@ -92,18 +92,17 @@ If these steps run properly, then the system is ready for the automation process
 
 For the automation process, connect the Android device to the PC using a USB connection and ensure that the phone is recognized as a connected device. This [tutorial](https://www.youtube.com/watch?v=GERlhgCcoBc) might be helpful. 
 
-The program assumes Open5gs, srsRAN, NAS test case folder, and RRC test case folder are in the same directory. In case of a different directory kindly change the path. For example:
+The program assumes Open5gs, srsRAN, and NAS test case folder are in the same directory. In case of a different directory kindly change the path. For example:
 
 1. For testcase directory: test_directory = `./path/to/testcase/directory` e.g., `test_directory = "./Test_nas"`
 2. For srsRAN:  srsran_command = "sudo", "-S", **"./srsRAN/build/srsenb/src/srsenb"**, **"configFiles/enb.conf"** [change the bold part]
 3. For open5gs: open5gs_command = "sudo", "-S", **"./open5gs/build/tests/app/5gc"**, "-n", **"./Test_nas/" + file_name + ".json"** [change the bold part]
 
-In this repository we provide sample testcases for NAS and RRC. The parameters and names are selected according to our definitions in the modified messages in the files: nas-path.c (Open5GS) and rrc_nr_ue.cc (srsRAN).
+In this repository we provide sample testcases for NAS. The parameters and names are selected according to our definitions in the modified messages in the files: nas-path.c (Open5GS) and rrc_nr_ue.cc (srsRAN).
 
 ### Options
 
-The type of test case needs to be specified with -t flag, followed by an option either nas or rrc. For example 
-`sudo python3 handler.py -t rrc`
+The type of test case needs to be specified with -t flag, for example `sudo python3 handler.py -t nas`
 
 ### Execution
 
@@ -111,7 +110,7 @@ This program takes all the test cases and runs them one by one.The phone is togg
 
 ### Results
 
-The program will create a folder (e.g., rrc_results). All logs and pcaps will be saved there. It will also create a real-time test case status log (e.g., Fri Jun 23 6:29:57 2023_RRC.txt ) where it can be seen if a test case is completed or not invoked.
+The program will create a folder (e.g., nas_results). All logs and pcaps will be saved there. It will also create a real-time test case status log (e.g., Fri Jun 23 6:29:57 2023_NAS.txt ) where it can be seen if a test case is completed or not invoked.
 
 
 ## License
