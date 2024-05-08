@@ -26,7 +26,7 @@ prerequisite:  sudo apt-get install build-essential cmake libfftw3-dev libmbedtl
 6. sudo make install
 ```
    
-More details on srsRAN installation can be found at: https://docs.srsran.com/projects/4g/en/latest/general/source/1_installation.html
+More details on srsRAN installation can be found [here](https://docs.srsran.com/projects/4g/en/latest/general/source/1_installation.html)
     
 ### open5GS
 prerequisite:  apt install python3-pip python3-setuptools python3-wheel ninja-build build-essential flex bison git cmake libsctp-dev libgnutls28-dev libgcrypt-dev libssl-dev libidn11-dev libmongoc-dev libbson-dev libyaml-dev libnghttp2-dev libmicrohttpd-dev libcurl4-gnutls-dev libnghttp2-dev libtins-dev libtalloc-dev meson libjson0 libjson0-dev
@@ -38,7 +38,7 @@ prerequisite:  apt install python3-pip python3-setuptools python3-wheel ninja-bu
 5. ninja install
 ```
    
-More details on open5gs installation can be found at: https://open5gs.org/open5gs/docs/guide/02-building-open5gs-from-sources
+More details on open5gs installation can be found [here](https://open5gs.org/open5gs/docs/guide/02-building-open5gs-from-sources)
 
 ### cJSON
 ```
@@ -88,7 +88,7 @@ For the RRC test:
 
 If these steps run properly, then the system is ready for the automation process using `handler.py`. Please note that in order to run the RRC test, it is necessary to run a NAS test as well. In this case, the NAS test1.json is executed concurrently with the RRC test, but NAS test1.json can be a dummy testcase.
 
-For the automation process, connect the Android device to the PC using a USB connection and ensure that the phone is recognized as a connected device. This tutorial can be helpful: https://www.youtube.com/watch?v=GERlhgCcoBc
+For the automation process, connect the Android device to the PC using a USB connection and ensure that the phone is recognized as a connected device. This [tutorial](https://www.youtube.com/watch?v=GERlhgCcoBc) might be helpful. 
 
 The program assumes Open5gs, srsRAN, NAS test case folder, and RRC test case folder are in the same directory. In case of a different directory kindly change the path. For example:
 
