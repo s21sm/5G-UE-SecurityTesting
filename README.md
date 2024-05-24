@@ -1,10 +1,3 @@
-<!--
-# 5G-UE-SecurityTesting
-
-## Description
-
-This project, **5G-UE-SecurityTesting**, is currently a work in progress. It focuses on security testing for 5G Standalone User Equipment (UE). The objective of this project is to develop a comprehensive framework for assessing the security aspects of 5G UE devices.
-
 ## Table of Contents
 
 - [Description](#description)
@@ -116,8 +109,8 @@ The program will create a folder (e.g., nas_results). All logs and pcaps will be
 
 ## License
 
-The **5G-UE-SecurityTesting** project is open-source.
--->
+This project is open-source.
+
 ## Reference
 
 If you are using or referencing this project, please cite the following paper:
